@@ -1,10 +1,18 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
 
 .left-sidebar{
+    position: fixed;
     width: 30%;
     margin-top: 32px;
     margin-left: 13px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     float: left;
+    
 }
 .left-sidebar .logo img{
     width: 24%;
@@ -30,7 +38,7 @@
     width: 27px;
 }
 .left-sidebar .more-options{
-    position: absolute;
+    position: fixed;
     bottom: 17px;
     margin-left: -5px;
     
@@ -42,17 +50,21 @@
 .vl {
     border-left: 1px solid #DEDEDE;
     height: 100%;
-    position: absolute;
+    position: fixed;
     left: 16%;
     margin-left: -3px;
     top: 0;
   }
+  
 /* ---------------------------------body----------------------------- */
 .body{
     float: left;
     margin-top: 38px;
     width: 31%;
-    margin-left: -15px;
+    padding-left: 30%;
+}
+.body .stories{
+    width: 100%;
 }
 .body .stories img{
     border-radius: 50%;
@@ -63,15 +75,38 @@
     border-color: #c62d8f;
 }
 .body .stories p{
-    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 12px;
-}
-.main-body{
-    /* background-color: aquamarine; */
 }
 .main-body .top-div .top-left img{
     width: 35px;
     border-radius: 50%;
+    margin-top: 15px;
+}
+.main-body img{
+    margin-top: -5px;
+    width: 100%;
+}
+.main-body .top-div .top-left p{
+    font-size: 15px;
+}
+.main-body .top-center{
+    margin-left:15px;
+}
+.main-body .location{
+    margin-left: 51px;
+    margin-top: -33px;
+    font-size: 13px;
+}
+.main-body .top-center p{
+    /* margin-top: -28px; */
+
+    font-size: 13px;
+}
+.main-body .user-name{
+    font-weight: 500;
+}
+.main-body .date{
+    color: #aea9ac;
 }
 .main-body .top-div .top-right img{
     width: 18px;
@@ -79,3 +114,41 @@
 .main-body .top-div .top-right{
     margin-left: auto;
 }
+.main-body .interactive-area {
+    margin-top: 10px;
+}
+.main-body .interactive-area .interactive-left img{
+    width: 25px;
+    margin-right: 10px;
+}
+.main-body .interactive-area .interactive-right{
+    width: 25px;
+    margin-left: auto;
+}
+.main-body .likes-comments p{
+    margin: 3px;
+    font-size: 14px;
+}
+.main-body .likes-comments .hashtags{
+    color: #0000ff;
+}
+.main-body input{
+    width: 100%;
+    line-height: 3em;
+    border:none;
+    border-bottom: 1px solid #DEDEDE;
+    position: relative;
+    display: inline-block;
+}
+.main-body input:focus{
+    outline: none;
+}
+.main-body .emoji {
+    align-items: right;
+    font-size: 20px; 
+    color: #6e6b6b;
+    pointer-events: none;
+  }
+  .main-body .post{
+    margin-bottom: 5px;
+  }
