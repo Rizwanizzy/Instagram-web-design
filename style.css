@@ -1,0 +1,81 @@
+
+.left-sidebar{
+    width: 30%;
+    margin-top: 32px;
+    margin-left: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    float: left;
+}
+.left-sidebar .logo img{
+    width: 24%;
+    background: transparent;
+}
+.shortcut-links{
+    margin-top: 23px;
+    margin-left: 1px;
+    
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.shortcut-links img{
+    width: 6%;
+    margin-right: 15px;
+    
+}
+.profile img{
+    border-radius: 50%;
+    width: 27px;
+}
+.left-sidebar .more-options{
+    position: absolute;
+    bottom: 17px;
+    margin-left: -5px;
+    
+}
+.left-sidebar .more-options img{
+    width: 7%;
+    margin-right: 5px;
+}
+.vl {
+    border-left: 1px solid #DEDEDE;
+    height: 100%;
+    position: absolute;
+    left: 16%;
+    margin-left: -3px;
+    top: 0;
+  }
+/* ---------------------------------body----------------------------- */
+.body{
+    float: left;
+    margin-top: 38px;
+    width: 31%;
+    margin-left: -15px;
+}
+.body .stories img{
+    border-radius: 50%;
+    width: 75%;
+    margin-right: 15px;
+    margin-bottom: -10px;
+    border: 3px solid;
+    border-color: #c62d8f;
+}
+.body .stories p{
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.main-body{
+    /* background-color: aquamarine; */
+}
+.main-body .top-div .top-left img{
+    width: 35px;
+    border-radius: 50%;
+}
+.main-body .top-div .top-right img{
+    width: 18px;
+}
+.main-body .top-div .top-right{
+    margin-left: auto;
+}
